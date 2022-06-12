@@ -1,7 +1,7 @@
-torch==1.10.1+cu113
+torch
 datasets==2.0.0
-transformers==4.15.0
-pytorch-lightning==1.5.8
+git+https://github.com/huggingface/transformers.git
+pytorch-lightning
 torchmetrics==0.6.2
 psutil==5.9.0
 deepspeed==0.5.10
